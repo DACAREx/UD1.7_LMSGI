@@ -1,0 +1,10 @@
+{
+  "catalogo": [
+    {"id":"cafetera1","articulo":"Cafetera Espresso 20 Barista Mini","descripcion":"Esta cafetera es perfecta para quienes buscan practicidad sin renunciar al sabor real. Su diseño compacto permite colocarla en cualquier cocina, y su presión de 20 bares garantiza un café con crema y cuerpo.","precio":299.99,"moneda":"EUR","categoria":"Electrodomésticos","imagen":"https://www.lacasadeloutlet.es/wp-content/uploads/2024/08/power-espresso-20-barista-mini_9or5h9_1.png.webp"},
+    {"id":"telefono2","articulo":"Teléfono Inteligente (Nothing Phone 3a Pro)","descripcion":"Pantalla OLED de 6.5 pulgadas, procesador potente y cámara de 48MP.","precio":679.99,"moneda":"EUR","categoria":"Smartphones","imagen":"https://thumb.pccomponentes.com/w-530-530/articles/1086/10869617/1854-nothing-phone-3a-pro-smartphone-12-256gb-68-amoled-fhd-120hz-50mp-5000mah-45w-android-15-negro.jpg"},
+    {"id":"auriculares3","articulo":"Auriculares Bluetooth","descripcion":"Cancelación de ruido real, 20 horas de batería.","precio":89.99,"moneda":"EUR","categoria":"Audio","imagen":"https://m.media-amazon.com/images/I/61LRJL3l2fL._AC_SX679_.jpg"},
+    {"id":"reloj4","articulo":"Reloj Deportivo Garmin Forerunner 55","descripcion":"GPS integrado y resistencia al agua.","precio":199.99,"moneda":"EUR","categoria":"Relojes Inteligentes","imagen":"relojdeportivo.png"},
+    {"id":"camara5","articulo":"Cámara de Seguridad 4K DEF","descripcion":"Visión nocturna y alertas en tiempo real.","precio":299.99,"moneda":"EUR","categoria":"Seguridad","imagen":"https://thumb.pccomponentes.com/w-530-530/articles/1094/10942345/1827-camara-ip-axis-02737-001-8mp-4k-interior-con-wdr-y-poe-especificaciones.jpg"}
+  ]
+}
+
