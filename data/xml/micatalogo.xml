@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogo>
+    <producto id="cafetera1">
+        <articulo>Cafetera Espresso 20 Barista Mini</articulo>
+        <descripcion>
+            Esta cafetera es perfecta para quienes buscan practicidad sin renunciar al sabor real.
+            Su diseño compacto permite colocarla en cualquier cocina, y su presión de 20 bares garantiza un café con crema y cuerpo.
+        </descripcion>
+        <precio moneda="EUR">299.99</precio>
+        <categoria>Electrodomésticos</categoria>
+        <imagen url="https://www.lacasadeloutlet.es/wp-content/uploads/2024/08/power-espresso-20-barista-mini_9or5h9_1.png.webp"/>
+    </producto>
+
+    <producto id="telefono2">
+        <articulo>Teléfono Inteligente (Nothing Phone 3a Pro)</articulo>
+        <descripcion>Pantalla OLED de 6.5 pulgadas, procesador potente y cámara de 48MP.</descripcion>
+        <precio moneda="EUR">679.99</precio>
+        <categoria>Smartphones</categoria>
+        <imagen url="https://thumb.pccomponentes.com/w-530-530/articles/1086/10869617/1854-nothing-phone-3a-pro-smartphone-12-256gb-68-amoled-fhd-120hz-50mp-5000mah-45w-android-15-negro.jpg"/>
+    </producto>
+
+    <producto id="auriculares3">
+        <articulo>Auriculares Bluetooth</articulo>
+        <descripcion>Cancelación de ruido real, 20 horas de batería.</descripcion>
+        <precio moneda="EUR">89.99</precio>
+        <categoria>Audio</categoria>
+        <imagen url="https://m.media-amazon.com/images/I/61LRJL3l2fL._AC_SX679_.jpg"/>
+    </producto>
+
+    <producto id="reloj4">
+        <articulo>Reloj Deportivo Garmin Forerunner 55</articulo>
+        <descripcion>GPS integrado y resistencia al agua.</descripcion>
+        <precio moneda="EUR">199.99</precio>
+        <categoria>Relojes Inteligentes</categoria>
+        <imagen url="relojdeportivo.png"/>
+    </producto>
+
+    <producto id="camara5">
+        <articulo>Cámara de Seguridad 4K DEF</articulo>
+        <descripcion>Visión nocturna y alertas en tiempo real.</descripcion>
+        <precio moneda="EUR">299.99</precio>
+        <categoria>Seguridad</categoria>
+        <imagen url="https://thumb.pccomponentes.com/w-530-530/articles/1094/10942345/1827-camara-ip-axis-02737-001-8mp-4k-interior-con-wdr-y-poe-especificaciones.jpg"/>
+    </producto>
+</catalogo>
+
+
+<!--
+### Puntos Clave de la conversión
+1- El elemento <catalogo> del XML se a convirtido en la estructura principal de la página HTML, (es decir es  el elemento raíz) 
+   donde cada <article> se representa con una etiqueta <producto> para que sea más claro.
+
+2- Los elementos de datos del HTML (<h2>, <p>, <img>) se transformaron en etiquetas XML:
+   - <h2> → <nombre> para el titulo de cada producto.
+   - <p> → <descripcion> para párrafos descriptivos mejores.
+   - <img src="..."> → <imagen url="..."> para mostrar las imágenes de cada producto.
+
+3- Los atributos del HTML se adaptaron a XML:
+   - El atributo id de <article> se mantuvo como id en cada <producto>.
+   - Aparece un nuevo atributo llamado <precio> el cual sirve para mostrar el precio del producto (por ejemplo, “299.99 €”).
+-->
